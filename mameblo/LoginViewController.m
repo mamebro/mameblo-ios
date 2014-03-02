@@ -53,9 +53,6 @@
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     NSDictionary *params = @{@"name": self.brotherNameField.text,
                              @"password": self.passwordField.text};
-    NSLog(@"%@", self.brotherNameField.text);
-    NSLog(@"%@", self.passwordField.text);
-    
     [manager POST:@"https://www.mameblo.com/api/signin" parameters: params
            success:^(AFHTTPRequestOperation *operation, id responseObject) {
                [self.delegate loginViewControllerDidFinish:self];
