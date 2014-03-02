@@ -26,7 +26,7 @@
 		E750C4D718B85D8500849CB5 /* mamebloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E750C4D618B85D8500849CB5 /* mamebloTests.m */; };
 		E79E42A718B861C90061B928 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79E42A618B861C90061B928 /* LoginViewController.m */; };
 		E79F246018C3140F00886099 /* MBLAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F245F18C3140F00886099 /* MBLAPIClient.m */; };
-		E79F246318C3146100886099 /* MBLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F246218C3146100886099 /* MBLUserModel.m */; };
+		E79F246318C3146100886099 /* MBLBrotherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F246218C3146100886099 /* MBLBrotherModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +68,8 @@
 		E79E42A618B861C90061B928 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E79F245E18C3140F00886099 /* MBLAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLAPIClient.h; sourceTree = "<group>"; };
 		E79F245F18C3140F00886099 /* MBLAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLAPIClient.m; sourceTree = "<group>"; };
-		E79F246118C3146100886099 /* MBLUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLUserModel.h; sourceTree = "<group>"; };
-		E79F246218C3146100886099 /* MBLUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLUserModel.m; sourceTree = "<group>"; };
+		E79F246118C3146100886099 /* MBLBrotherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLBrotherModel.h; sourceTree = "<group>"; };
+		E79F246218C3146100886099 /* MBLBrotherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLBrotherModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +135,8 @@
 				E750C4B418B85D8500849CB5 /* AppDelegate.h */,
 				E79F245E18C3140F00886099 /* MBLAPIClient.h */,
 				E79F245F18C3140F00886099 /* MBLAPIClient.m */,
-				E79F246118C3146100886099 /* MBLUserModel.h */,
-				E79F246218C3146100886099 /* MBLUserModel.m */,
+				E79F246118C3146100886099 /* MBLBrotherModel.h */,
+				E79F246218C3146100886099 /* MBLBrotherModel.m */,
 				E750C4B518B85D8500849CB5 /* AppDelegate.m */,
 				E750C4B718B85D8500849CB5 /* Main_iPhone.storyboard */,
 				E79E42A518B861C90061B928 /* LoginViewController.h */,
@@ -325,7 +325,7 @@
 				E750C4C218B85D8500849CB5 /* SecondViewController.m in Sources */,
 				E750C4B618B85D8500849CB5 /* AppDelegate.m in Sources */,
 				E750C4BF18B85D8500849CB5 /* FirstViewController.m in Sources */,
-				E79F246318C3146100886099 /* MBLUserModel.m in Sources */,
+				E79F246318C3146100886099 /* MBLBrotherModel.m in Sources */,
 				E79F246018C3140F00886099 /* MBLAPIClient.m in Sources */,
 				E750C4B218B85D8500849CB5 /* main.m in Sources */,
 				E79E42A718B861C90061B928 /* LoginViewController.m in Sources */,

@@ -24,13 +24,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BrotherName" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Am2-3a-wDv">
-                                <rect key="frame" x="108" y="117" width="105" height="30"/>
+                                <rect key="frame" x="108" y="98" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Afa-bH-Ij0">
-                                <rect key="frame" x="108" y="184" width="105" height="30"/>
+                                <rect key="frame" x="108" y="147" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -54,9 +54,9 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Afa-bH-Ij0" secondAttribute="trailing" constant="107" id="41Q-Pw-hZ2"/>
                             <constraint firstAttribute="trailing" secondItem="Am2-3a-wDv" secondAttribute="trailing" constant="107" id="5Mr-n0-gwg"/>
-                            <constraint firstItem="Afa-bH-Ij0" firstAttribute="top" secondItem="Am2-3a-wDv" secondAttribute="bottom" constant="37" id="6UZ-E0-2i7"/>
+                            <constraint firstItem="Afa-bH-Ij0" firstAttribute="top" secondItem="Am2-3a-wDv" secondAttribute="bottom" constant="19" id="6UZ-E0-2i7"/>
                             <constraint firstItem="cPv-eJ-eXv" firstAttribute="top" secondItem="GPX-pY-PIn" secondAttribute="bottom" constant="39" id="EQt-qN-wRD"/>
-                            <constraint firstItem="Am2-3a-wDv" firstAttribute="top" secondItem="cPv-eJ-eXv" secondAttribute="bottom" constant="37" id="FxD-qA-OaR"/>
+                            <constraint firstItem="Am2-3a-wDv" firstAttribute="top" secondItem="cPv-eJ-eXv" secondAttribute="bottom" constant="18" id="FxD-qA-OaR"/>
                             <constraint firstItem="Am2-3a-wDv" firstAttribute="leading" secondItem="R4L-Ey-Cw7" secondAttribute="leading" constant="108" id="Pwq-QR-2FU"/>
                             <constraint firstAttribute="trailing" secondItem="VTa-3A-QLy" secondAttribute="trailing" constant="96" id="RTH-BE-A6L"/>
                             <constraint firstItem="VTa-3A-QLy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Afa-bH-Ij0" secondAttribute="bottom" constant="10" id="UsH-3S-dq0"/>

@@ -1,5 +1,5 @@
 //
-//  MBLUserModel.h
+//  MBLBrotherModel.h
 //  mameblo
 //
 //  Created by Keisuke KITA on 2014/03/02.
@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MBLUserModel : NSObject
+@interface MBLBrotherModel : NSObject
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *token;
 
 /*
-+ (MBLUserModel *)sharedManager;
++ (MBLBrotherModel *)sharedManager;
 
 - (BOOL)isSignedIn;
  */
