@@ -13,9 +13,11 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *token;
 
-/*
+
 + (MBLBrotherModel *)sharedManager;
 
-- (BOOL)isSignedIn;
- */
+- (BOOL) isSignedIn;
+- (void) saveUserData:(NSDictionary *)params;
+
+
 @end

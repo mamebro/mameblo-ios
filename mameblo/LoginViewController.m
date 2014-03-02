@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 
 #import <AFHTTPRequestOperationManager.h>
+#import "MBLBrotherModel.h"
 
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *brotherNameField;
@@ -48,6 +49,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)signinButton:(id)sender {
+    MBLBrotherModel *brother = [MBLBrotherModel sharedManager];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.securityPolicy.allowInvalidCertificates = YES;
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -55,6 +57,7 @@
                              @"password": self.passwordField.text};
     [manager POST:@"https://www.mameblo.com/api/signin" parameters: params
            success:^(AFHTTPRequestOperation *operation, id responseObject) {
+               [brother saveUserData:@{@"name": self.brotherNameField.text, @"token": operation.responseString}];
                [self.delegate loginViewControllerDidFinish:self];
            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                NSLog(@"%@", error);
