@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+#import "LoginViewController.h"
 
+@interface FirstViewController : UIViewController <LoginViewControllerDelegate>
 @end

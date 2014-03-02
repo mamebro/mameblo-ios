@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E59426825C99440EB71D6AB0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 689295BF0F944B06B31AE113 /* libPods.a */; };
 		E750C4A618B85D8500849CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E750C4A518B85D8500849CB5 /* Foundation.framework */; };
 		E750C4A818B85D8500849CB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E750C4A718B85D8500849CB5 /* CoreGraphics.framework */; };
 		E750C4AA18B85D8500849CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E750C4A918B85D8500849CB5 /* UIKit.framework */; };
@@ -23,6 +24,9 @@
 		E750C4CD18B85D8500849CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E750C4A918B85D8500849CB5 /* UIKit.framework */; };
 		E750C4D518B85D8500849CB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E750C4D318B85D8500849CB5 /* InfoPlist.strings */; };
 		E750C4D718B85D8500849CB5 /* mamebloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E750C4D618B85D8500849CB5 /* mamebloTests.m */; };
+		E79E42A718B861C90061B928 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79E42A618B861C90061B928 /* LoginViewController.m */; };
+		E79F246018C3140F00886099 /* MBLAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F245F18C3140F00886099 /* MBLAPIClient.m */; };
+		E79F246318C3146100886099 /* MBLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F246218C3146100886099 /* MBLUserModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		689295BF0F944B06B31AE113 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49C10CF04DD44FFAE179553 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E750C4A218B85D8500849CB5 /* mameblo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mameblo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E750C4A518B85D8500849CB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E750C4A718B85D8500849CB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +64,12 @@
 		E750C4D218B85D8500849CB5 /* mamebloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mamebloTests-Info.plist"; sourceTree = "<group>"; };
 		E750C4D418B85D8500849CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E750C4D618B85D8500849CB5 /* mamebloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mamebloTests.m; sourceTree = "<group>"; };
+		E79E42A518B861C90061B928 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E79E42A618B861C90061B928 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E79F245E18C3140F00886099 /* MBLAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLAPIClient.h; sourceTree = "<group>"; };
+		E79F245F18C3140F00886099 /* MBLAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLAPIClient.m; sourceTree = "<group>"; };
+		E79F246118C3146100886099 /* MBLUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLUserModel.h; sourceTree = "<group>"; };
+		E79F246218C3146100886099 /* MBLUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLUserModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 				E750C4A818B85D8500849CB5 /* CoreGraphics.framework in Frameworks */,
 				E750C4AA18B85D8500849CB5 /* UIKit.framework in Frameworks */,
 				E750C4A618B85D8500849CB5 /* Foundation.framework in Frameworks */,
+				E59426825C99440EB71D6AB0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +104,7 @@
 				E750C4D018B85D8500849CB5 /* mamebloTests */,
 				E750C4A418B85D8500849CB5 /* Frameworks */,
 				E750C4A318B85D8500849CB5 /* Products */,
+				D49C10CF04DD44FFAE179553 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +124,7 @@
 				E750C4A718B85D8500849CB5 /* CoreGraphics.framework */,
 				E750C4A918B85D8500849CB5 /* UIKit.framework */,
 				E750C4CA18B85D8500849CB5 /* XCTest.framework */,
+				689295BF0F944B06B31AE113 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,11 +133,18 @@
 			isa = PBXGroup;
 			children = (
 				E750C4B418B85D8500849CB5 /* AppDelegate.h */,
+				E79F245E18C3140F00886099 /* MBLAPIClient.h */,
+				E79F245F18C3140F00886099 /* MBLAPIClient.m */,
+				E79F246118C3146100886099 /* MBLUserModel.h */,
+				E79F246218C3146100886099 /* MBLUserModel.m */,
 				E750C4B518B85D8500849CB5 /* AppDelegate.m */,
 				E750C4B718B85D8500849CB5 /* Main_iPhone.storyboard */,
+				E79E42A518B861C90061B928 /* LoginViewController.h */,
+				E79E42A618B861C90061B928 /* LoginViewController.m */,
 				E750C4BA18B85D8500849CB5 /* Main_iPad.storyboard */,
 				E750C4BD18B85D8500849CB5 /* FirstViewController.h */,
 				E750C4BE18B85D8500849CB5 /* FirstViewController.m */,
+				E79E42C918B86FB10061B928 /* Utilities */,
 				E750C4C018B85D8500849CB5 /* SecondViewController.h */,
 				E750C4C118B85D8500849CB5 /* SecondViewController.m */,
 				E750C4C318B85D8500849CB5 /* Images.xcassets */,
@@ -160,6 +182,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E79E42C918B86FB10061B928 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E750C4DA18B85D8500849CB5 /* Build configuration list for PBXNativeTarget "mameblo" */;
 			buildPhases = (
+				A3A7295FB16D42FDBAFA10C3 /* Check Pods Manifest.lock */,
 				E750C49E18B85D8500849CB5 /* Sources */,
 				E750C49F18B85D8500849CB5 /* Frameworks */,
 				E750C4A018B85D8500849CB5 /* Resources */,
+				6B89B8CDFAE241B59CE6ACDE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +284,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B89B8CDFAE241B59CE6ACDE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A7295FB16D42FDBAFA10C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E750C49E18B85D8500849CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +325,10 @@
 				E750C4C218B85D8500849CB5 /* SecondViewController.m in Sources */,
 				E750C4B618B85D8500849CB5 /* AppDelegate.m in Sources */,
 				E750C4BF18B85D8500849CB5 /* FirstViewController.m in Sources */,
+				E79F246318C3146100886099 /* MBLUserModel.m in Sources */,
+				E79F246018C3140F00886099 /* MBLAPIClient.m in Sources */,
 				E750C4B218B85D8500849CB5 /* main.m in Sources */,
+				E79E42A718B861C90061B928 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +462,7 @@
 		};
 		E750C4DB18B85D8500849CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49C10CF04DD44FFAE179553 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -408,6 +476,7 @@
 		};
 		E750C4DC18B85D8500849CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49C10CF04DD44FFAE179553 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -480,6 +549,7 @@
 				E750C4DC18B85D8500849CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E750C4DD18B85D8500849CB5 /* Build configuration list for PBXNativeTarget "mamebloTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +558,7 @@
 				E750C4DF18B85D8500849CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
